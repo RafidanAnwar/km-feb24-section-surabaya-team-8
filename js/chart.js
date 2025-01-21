@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .catch(error => console.error('Error loading the bike sales data:', error));
 
     // Memuat data untuk chart kedua
-    fetch('json/AgeGroupOrder.json')
+    fetch('json/Age_Group_Order.json')
         .then(response => response.json())
         .then(data => {
             ageData = data;
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .catch(error => console.error('Error loading the age group data:', error));
 
     // Memuat data untuk chart ketiga
-    fetch('json/genderOrder.json')
+    fetch('json/Gender_Order.json')
         .then(response => response.json())
         .then(data => {
             genderData = data;
