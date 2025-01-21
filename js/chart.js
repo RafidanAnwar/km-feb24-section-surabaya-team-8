@@ -280,7 +280,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 plugins: {
                     title: {
                         display: true,
-                        text: 'TOP 5 PRODUCT'
+                        text: 'TOP PRODUCT'
                     }
                 },
                 scales: {
